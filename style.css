@@ -2,13 +2,17 @@ body{
   background-color: lightseagreen;
   font-family: Courier New;
   text-align: center;
-}
+
 .titulo {
   text-align: center;
   font-size: 25px;
   border: dotted 2px;
   border-radius: 50px;
   background-color: #425A43;
+}
+.item{
+  border: solid 2px black;
+  border-radius: 20px;
 }
 .N1{
  display: flex;
@@ -20,6 +24,15 @@ body{
   display: flex;
 }
 .N4 {
+  display: flex;
+}
+.N5{
+  display: flex;
+}
+.N6{
+  display: flex;
+}
+.N7{
   display: flex;
 }
 img{
