@@ -34,10 +34,27 @@ body{
 }
 .N7{
   display: flex;
+  padding: 0 50px 0 50px;
   
 }
 .N8{
   display: flex;
+  padding: 0 50px 0 50px;
+}
+.N9{
+  display: flex;
+  padding: 0 50px 0 50px;
+}
+.N10{
+  display: flex;
+  padding: 0 50px 0 50px;
+}
+.N11{
+  display: flex;
+  padding: 0 50px 0 50px;
+}
+.N12{
+  display : flex;
 }
 img{
   display: flex;
