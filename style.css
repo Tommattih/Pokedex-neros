@@ -1,82 +1,70 @@
-body{
+body {
   background-color: lightseagreen;
   font-family: Courier New;
   text-align: center;
-
-.titulo {
-  text-align: center;
-  font-size: 25px;
-  border: dotted 2px;
-  border-radius: 50px;
-  background-color: #425A43;
+  margin: 0;
+  padding: 0 5px;
 }
-.item{
+h1 {
+  font-size: 25px;
+  text-align: center;
+  text-shadow: white 0 1px 2px;
+  
+  border: dotted 2px;
+  border-radius: 20px;
+  box-shadow: white 0 1px 5px;
+  
+  width: 80%;
+  margin: 5px auto;
+  padding: 10px;
+  background-color: #88a589;
+}
+.item {
+  background-color: rgba(166, 182, 107, 0.3);
   border: solid 2px black;
   border-radius: 20px;
+  padding: 5px;
+  box-shadow: whitesmoke 0 1px 3px;
 }
-.N1{
- display: flex;
-}
-.N2 {
-  display: flex;
-}
-.N3 {
-  display: flex;
-}
-.N4 {
-  display: flex;
-}
-.N5{
-  display: flex;
-}
-.N6{
-  display: flex;
-}
-.N7{
-  display: flex;
-  padding: 0 50px 0 50px;
-  
-}
-.N8{
-  display: flex;
-  padding: 0 50px 0 50px;
-}
-.N9{
-  display: flex;
-  padding: 0 50px 0 50px;
-}
-.N10{
-  display: flex;
-  padding: 0 50px 0 50px;
-}
-.N11{
-  display: flex;
-  padding: 0 50px 0 50px;
-}
-.N12{
+.container {
   display : flex;
+  justify-content: center;
+  gap: 5px;
+  margin-bottom: 5px;
 }
-img{
-  display: flex;
+img {
   width: 125px;
   height: 125px;
-  border: solid 3px black;
-  border-radius: 100px;
-  text-align: center;
-  background-color: white;
+  border: solid 1px black;
+  border-radius: 50%;
+  background-color: whitesmoke;
 }
 p {
   text-align: center;
   font-size: 20px;
-  border: solid 3px black;
-  border-radius: 50px;
+  border: solid 1px black;
+  border-radius: 20px;
   padding: 5px;
-  color: darkslategray;
-  background-color: darkgray;
+  color: black;
+  background-color: lightgray;
 }
-.item h3{
-border: solid 2px black;
-font-size: 20px;
-border-radius: 50px;
-background-color: darkgrey;
+h3 {
+  border: solid 2px black;
+  font-size: 20px;
+  border-radius: 20px;
+  background-color: darkgrey;
+}
+img, p, h3 {
+  box-shadow: darkslategrey 0 1px 5px;
+}
+.item:hover {
+  cursor:pointer;
+  background-color: rgb(166, 182, 107);
+  scale: 1.2;
+  filter: brightness(1.1);
+  font-weight: bold;
+  transition: .5s;
+
+  box-shadow: whitesmoke 0 1px 15px 5px;
+
 }
